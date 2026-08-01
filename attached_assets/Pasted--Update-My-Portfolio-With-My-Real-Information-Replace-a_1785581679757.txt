@@ -1,0 +1,155 @@
+# Update My Portfolio With My Real Information
+
+Replace all placeholder content with the following real information while keeping the same modern dark glassmorphism design, animations, and full mobile responsiveness.
+
+## Hero Section
+
+Name:
+Rakesh Bhajwad
+
+Title:
+Aspiring Web Developer • AI Developer • Content Creator
+
+Subtitle:
+Creating cinematic horror content for YouTube and Instagram while learning Web Development and Artificial Intelligence. Building creative digital experiences and documenting my journey every day.
+
+Button Text:
+Explore My Journey
+
+---
+
+## About Me
+
+Hi, I'm Rakesh Bhajwad from India.
+
+I'm currently creating cinematic horror videos for YouTube and Instagram while learning Web Development and Artificial Intelligence.
+
+I enjoy building creative ideas, exploring new technologies, and improving my skills every day.
+
+Apart from technology, I love traveling, vlogging, exploring new places, and I have a strong interest in luxury lifestyle, creativity, and digital content.
+
+My goal is to become a skilled Web Developer and AI Developer while building a successful personal brand through content creation and inspiring people with my journey.
+
+This portfolio represents my learning journey and will continue to grow as I complete real-world projects.
+
+---
+
+## Skills
+
+Create two categories.
+
+### Currently Learning
+- HTML
+- CSS
+- JavaScript
+- Responsive Web Design
+- Git & GitHub
+- React
+- Artificial Intelligence
+- Prompt Engineering
+
+### Content Creation
+- Horror Storytelling
+- Video Editing
+- AI Tools
+- YouTube Shorts
+- Instagram Reels
+- Creative Writing
+- Cinematic Content
+
+Show these skills as "Currently Learning" instead of expert level.
+
+---
+
+## Projects
+
+Remove all placeholder/fake projects such as:
+- AI Chat App
+- Portfolio Builder
+- CodeLens
+
+Replace them with these real projects.
+
+### Horror Content Creator
+Description:
+Creating cinematic horror stories and viral short videos for YouTube and Instagram using AI tools, storytelling, editing, and creative visuals.
+
+Technologies:
+AI Tools, CapCut, Storytelling, Content Creation
+
+GitHub Button:
+View GitHub
+
+---
+
+### Personal Portfolio Website
+Description:
+A responsive personal portfolio website built during my Web Development learning journey. I will continue improving this portfolio as I build more real projects.
+
+Technologies:
+HTML, CSS, JavaScript
+
+GitHub Button:
+View GitHub
+
+---
+
+## My Interests
+
+Create a new section called "My Interests"
+
+- Horror Storytelling
+- Travel
+- Vlogging
+- Web Development
+- Artificial Intelligence
+- Technology
+- Luxury Lifestyle
+- Content Creation
+- Learning New Skills
+
+---
+
+## Contact
+
+Email:
+rakeshbhajwad123@gmail.com
+
+GitHub:
+https://github.com/rakeshbhajwad123-web
+
+Replace every placeholder GitHub link with my GitHub profile.
+
+Open GitHub links in a new tab.
+
+---
+
+## Navigation
+
+Keep these menu items:
+- Home
+- About
+- Skills
+- Projects
+- Interests
+- Contact
+
+---
+
+## Footer
+
+Replace the footer text with:
+
+© 2026 Rakesh Bhajwad. Built with passion while learning Web Development, AI, and Content Creation.
+
+---
+
+## Design
+
+- Keep the premium dark glassmorphism design.
+- Keep smooth scrolling.
+- Keep all animations.
+- Keep mobile responsiveness.
+- Improve spacing and typography.
+- Do not use fake information.
+- Make the website feel like a premium personal brand portfolio that showcases my learning journey, content creation, and future goals.
