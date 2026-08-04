@@ -27,7 +27,13 @@ export function Hero() {
       </motion.div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-20">
-        <div className="max-w-4xl">
+        <div className="grid lg:grid-cols-2 gap-12 items-center"><div className="flex justify-center">
+  <img
+    src={heroBg}
+    alt="Rakesh Bhajwad"
+    className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-purple-500 shadow-2xl"
+  />
+</div>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
