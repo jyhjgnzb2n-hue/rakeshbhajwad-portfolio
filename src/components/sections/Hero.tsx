@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import heroBg from '@assets/generated_images/hero-bg.jpg';
+import heroBg from '@/assets/images/rakesh.png';
 
 export function Hero() {
   const { scrollY } = useScroll();
