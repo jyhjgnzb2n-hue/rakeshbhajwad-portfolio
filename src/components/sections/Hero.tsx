@@ -83,7 +83,13 @@ export function Hero() {
             >
               Explore My Journey
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </a><a
+  href="/resume.pdf"
+  download
+  className="inline-flex items-center gap-3 px-8 py-4 mt-4 border border-primary rounded-full text-white font-medium hover:bg-primary transition-all duration-300"
+>
+  Download Resume
+</a>
           </motion.div>
         </div>
       </div>
