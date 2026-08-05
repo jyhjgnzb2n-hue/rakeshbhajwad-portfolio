@@ -41,6 +41,14 @@ export function Contact() {
                 <Github size={20} className="group-hover:text-primary transition-colors" />
                 GitHub Profile
               </a>
+              <a
+                href="https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb"
+                target="_blank"
+                rel="noopener noreferrer"
+                 className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-red-600 text-white rounded-xl font-medium hover:bg-red-700 transition-colors"
+                  >
+                 YouTube Channel
+              </a>
             </div>
           </div>
         </motion.div>
