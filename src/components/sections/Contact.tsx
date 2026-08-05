@@ -33,7 +33,7 @@ export function Contact() {
               </a>
               
               <a 
-                href="https://github.com/rakeshbhajwad123-web"
+                href="https://github.com/jyhjgnzb2n-hue"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-white/5 border border-white/10 text-white rounded-xl font-medium hover:bg-white/10 transition-colors group"
