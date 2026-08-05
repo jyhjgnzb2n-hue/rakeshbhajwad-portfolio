@@ -49,6 +49,14 @@ export function Contact() {
                   >
                  YouTube Channel
               </a>
+             <a
+              href="https://www.instagram.com/mr_raakesh_bhajwad"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-pink-600 text-white rounded-xl font-medium hover:bg-pink-700 transition-colors"
+               >
+              Instagram
+             </a>
             </div>
           </div>
         </motion.div>
