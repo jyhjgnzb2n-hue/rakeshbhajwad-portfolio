@@ -8,16 +8,16 @@ export function Projects() {
       description: "Creating cinematic AI-powered horror stories for YouTube using storytelling, editing, visual effects and AI tools.",
       tags: ["ChatGPT", "CapCut", "AI", "YouTube"],
       link: "https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb",
-      theme: "secondary"
+      theme: "secondary" // Red/Crimson theme
     },
     {
       title: "Personal Portfolio Website",
-      description: "A responsive personal portfolio website built during my Web Development learning journey. I will continue improving this portfolio as I build more real projects.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/jyhjgnzb2n-hue",
+      description: "A modern responsive portfolio built with React, TypeScript, Tailwind CSS and deployed on Vercel. This portfolio will continue to grow as I complete more projects.",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
+      link: "https://rakeshbhajwad-portfolio-3xpi.vercel.app",
       theme: "primary" // Purple theme
     }
-  ];
+    ];
 
   return (
     <section id="projects" className="py-32 relative">
