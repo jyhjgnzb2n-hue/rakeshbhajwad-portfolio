@@ -78,8 +78,8 @@ export function Projects() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-primary transition-colors group/btn"
                   >
-                    <Github size={16} />
-                    View GitHub
+                    <ExternalLink size={16} />
+                    Open Project
                     <motion.span 
                       className="inline-block"
                       initial={{ x: 0 }}
