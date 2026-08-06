@@ -4,18 +4,20 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: "Dark Truth Files",
-      description: "Creating cinematic AI-powered horror stories for YouTube using storytelling, editing, visual effects and AI tools.",
-      tags: ["ChatGPT", "CapCut", "AI", "YouTube"],
-      link: "https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb",
-      theme: "secondary" // Red/Crimson theme
-    },
+        title: "Dark Truth Files",
+        description: "Creating cinematic AI-powered horror stories for YouTube using storytelling, editing, visual effects and AI tools.",
+        tags: ["ChatGPT", "CapCut", "AI", "YouTube"],
+        link: "https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb",
+        button: "Visit YouTube",
+        theme: "secondary" // Red/Crimson theme
+     },
     {
-      title: "Personal Portfolio Website",
-      description: "A modern responsive portfolio built with React, TypeScript, Tailwind CSS and deployed on Vercel. This portfolio will continue to grow as I complete more projects.",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
-      link: "https://rakeshbhajwad-portfolio-3xpi.vercel.app",
-      theme: "primary" // Purple theme
+        title: "Personal Portfolio Website",
+        description: "A modern responsive portfolio built with React, TypeScript, Tailwind CSS and deployed on Vercel. This portfolio will continue to grow as I complete more projects.",
+        tags: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
+        link: "https://rakeshbhajwad-portfolio-3xpi.vercel.app",
+        button: "Visit Website",
+        theme: "primary"// Purple theme
     }
     ];
 
