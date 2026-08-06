@@ -81,7 +81,7 @@ export function Projects() {
                     className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-primary transition-colors group/btn"
                   >
                     <ExternalLink size={16} />
-                    Open Project
+                    {project.button}
                     <motion.span 
                       className="inline-block"
                       initial={{ x: 0 }}
