@@ -4,17 +4,17 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: "Horror Content Creator",
-      description: "Creating cinematic horror stories and viral short videos for YouTube and Instagram using AI tools, storytelling, editing, and creative visuals.",
-      tags: ["AI Tools", "CapCut", "Storytelling", "Content Creation"],
-      link: "https://github.com/rakeshbhajwad123-web",
-      theme: "secondary" // Red/Crimson theme
+      title: "Dark Truth Files",
+      description: "Creating cinematic AI-powered horror stories for YouTube using storytelling, editing, visual effects and AI tools.",
+      tags: ["ChatGPT", "CapCut", "AI", "YouTube"],
+      link: "https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb",
+      theme: "secondary"
     },
     {
       title: "Personal Portfolio Website",
       description: "A responsive personal portfolio website built during my Web Development learning journey. I will continue improving this portfolio as I build more real projects.",
       tags: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/rakeshbhajwad123-web",
+      link: "https://github.com/jyhjgnzb2n-hue",
       theme: "primary" // Purple theme
     }
   ];
