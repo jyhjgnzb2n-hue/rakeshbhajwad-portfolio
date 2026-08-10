@@ -4,6 +4,7 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
 import Home from '@/pages/Home';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
+import { ScrollToTop } from '@/components/ScrollToTop';
 
 const queryClient = new QueryClient();
 
@@ -20,9 +21,11 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
-          <Router />
+       <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+        <Router />
         </WouterRouter>
+
+        <ScrollToTop />
         <Toaster />
       </TooltipProvider>
     </QueryClientProvider>
