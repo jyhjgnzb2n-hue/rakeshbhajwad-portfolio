@@ -4,8 +4,7 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
 import Home from '@/pages/Home';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
-import { ScrollToTop } from '@/components/ScrollToTop';
-
+import { ScrollToTop } from '@/components/Scrolltotop';
 const queryClient = new QueryClient();
 
 function Router() {
