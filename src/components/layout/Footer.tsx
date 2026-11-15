@@ -1,6 +1,5 @@
 
-import { Github, Instagram, ArrowUp, ArrowUpRight } from 'lucide-react';
-
+import { Github, Instagram, ArrowUp } from 'lucide-react';
 const footerLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
