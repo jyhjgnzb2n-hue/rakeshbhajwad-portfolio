@@ -5,28 +5,28 @@ import { ExternalLink, Github } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: "Personal Portfolio Website",
-      description:
-        "My personal digital space, built with React, TypeScript, Tailwind CSS and Framer Motion. It showcases my learning journey, skills and projects as I grow in Web Development and AI.",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-      link: "https://github.com/jyhjgnzb2n-hue/rakeshbhajwad-portfolio",
-      button: "View Source Code",
-      type: "Development",
-    },
+        title: "Dark Truth Files",
+        description: "Creating cinematic AI-powered horror stories for YouTube using storytelling, editing, visual effects and AI tools.",
+        tags: ["ChatGPT", "CapCut", "AI", "YouTube"],
+        link: "https://youtube.com/@darktruthfilees?si=2TCjw04KKFSa-vdb",
+        button: "Visit YouTube",
+        theme: "secondary" // Red/Crimson theme
+     },
     {
-      title: "Little Champ",
-      description:
-        "An AI-assisted kids storytelling project focused on entertaining children through fun, realistic stories and meaningful everyday lessons.",
-      tags: ["AI Content", "Storytelling", "Video Creation", "YouTube"],
-      type: "Content Creation",
-    },
-  ];
+        title: "Personal Portfolio Website",
+        description: "A modern responsive portfolio built with React, TypeScript, Tailwind CSS and deployed on Vercel. This portfolio will continue to grow as I complete more projects.",
+        tags: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
+        link: "https://rakeshbhajwad-portfolio-3xpi.vercel.app",
+        button: "Visit Website",
+        theme: "primary"// Purple theme
+    }
+    ];
 
   return (
-    <section id="projects" className="py-24 md:py-32 relative">
-      <div className="container mx-auto px-5 sm:px-8 md:px-12">
-        <div className="mb-12 md:mb-16">
-          <motion.h2
+    <section id="projects" className="py-32 relative">
+      <div className="container mx-auto px-6 md:px-12">
+        <div className="mb-16">
+          <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -34,64 +34,64 @@ export function Projects() {
           >
             Real <span className="text-gradient">Projects</span>
           </motion.h2>
-
-          <p className="text-muted-foreground max-w-xl leading-relaxed">
-            Ideas I'm turning into real digital experiences, one project at a time.
-          </p>
-
-          <div className="h-px w-24 bg-gradient-to-r from-primary to-transparent mt-6" />
+          <div className="h-px w-24 bg-gradient-to-r from-primary to-transparent"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {projects.map((project, index) => (
             <motion.div
-              key={project.title}
+              key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="group glass-card rounded-2xl p-6 sm:p-8 lg:p-10 relative overflow-hidden flex flex-col min-h-full glass-card-hover"
+              transition={{ delay: index * 0.2, duration: 0.6 }}
+              className="group glass-card rounded-2xl p-8 lg:p-10 relative overflow-hidden flex flex-col h-full glass-card-hover"
             >
-              <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-primary/10 blur-[80px] opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
-
-              <div className="relative z-10 flex flex-col flex-grow">
-                <div className="mb-5">
-                  <span className="inline-flex text-xs font-medium tracking-wide uppercase text-primary bg-primary/10 border border-primary/20 rounded-full px-3 py-1 mb-5">
-                    {project.type}
-                  </span>
-
-                  <h3 className="text-2xl sm:text-3xl font-display font-bold text-white">
+              {/* Background ambient light */}
+              <div className={`absolute -top-20 -right-20 w-64 h-64 rounded-full blur-[80px] opacity-20 transition-opacity duration-500 group-hover:opacity-40 ${
+                project.theme === 'primary' ? 'bg-primary' : 'bg-secondary'
+              }`} />
+              
+              <div className="relative z-10 flex-grow flex flex-col">
+                <div className="mb-6 flex items-start justify-between">
+                  <h3 className="text-2xl font-display font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-muted-foreground transition-all">
                     {project.title}
                   </h3>
+                  <div className={`w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-white/5 text-white/50 group-hover:text-white group-hover:border-${project.theme}/50 group-hover:bg-${project.theme}/10 transition-colors`}>
+                    <ExternalLink size={18} />
+                  </div>
                 </div>
-
+                
                 <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">
                   {project.description}
                 </p>
-
-                <div className="flex flex-wrap gap-2 mb-8">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs font-medium px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-white/70"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
+                
+                <div className="space-y-8 mt-auto">
+                  <div className="flex flex-wrap gap-2">
+                    {project.tags.map((tag, i) => (
+                      <span key={i} className="text-xs font-medium px-3 py-1 bg-white/5 border border-white/5 rounded-md text-white/70">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 text-sm font-medium text-white hover:text-primary transition-colors"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-primary transition-colors group/btn"
                   >
-                    <Github size={18} />
+                    <ExternalLink size={16} />
                     {project.button}
-                    <ExternalLink size={15} />
+                    <motion.span 
+                      className="inline-block"
+                      initial={{ x: 0 }}
+                      whileHover={{ x: 3 }}
+                    >
+                      →
+                    </motion.span>
                   </a>
-                )}
+                </div>
               </div>
             </motion.div>
           ))}
